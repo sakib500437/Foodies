@@ -237,6 +237,65 @@ nav .navItem .homeBtn{
     margin-right: 1rem;
 }
 /* ourBenefit */
+/* ourStars */
+.ourStars{
+    margin-top: 7rem;
+    display: flex;
+    gap: 6rem;
+    flex-direction: row-reverse;
+}
+.ourStars .imgSection {
+    width: 28.8125rem;
+    margin-left: 4rem;
+    flex-basis: 50%;
+}
+.ourStars .imgSection img{
+    width: 90%;
+}
+.ourStars .content{
+    flex-basis: 50%;
+}
+.ourStars .content p{
+    font-size: 15px;
+    margin-top: 4rem;
+    margin-bottom: 1.25rem;
+}
+.ourStars .content h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-right: 6rem;
+    letter-spacing: .1rem;
+}
+.ourStars .content .history{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.ourStars .content .history h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--mainColor);
+}
+.ourStars .content .history p{
+    margin-top: .8rem;
+    font-size: 15px;
+}
+.ourStars .content button{
+    display: inline-block;
+    margin-top: 2rem;
+    padding: .9rem 1.5rem;
+    background-color: var(--mainColor);
+    outline: 0;
+    border: 0;
+    color: white;
+    cursor: pointer;
+
+}
+.ourStars .content button span{
+    font-size: 1.2rem;
+    margin: 0 .5rem;
+}
+/* ourStars */
 /* Media Query */
 @media (max-width: 1200px) {
     /* nav */
