@@ -270,6 +270,7 @@ nav .navItem .homeBtn{
     display: flex;
     justify-content: space-between;
     margin-top: 2.5rem;
+    text-align: center;
 }
 .ourStars .content .history h3{
     font-size: 2rem;
@@ -395,6 +396,30 @@ nav .navItem .homeBtn{
         padding-right: 6rem;
     }
     /* ourBenefit */
+    /* ourStars */
+    .ourStars{
+        margin-top: 6rem;
+        gap: 0rem;
+    }
+    .ourStars .imgSection {
+        width: 25.8125rem;
+        margin-left: 2rem;
+        flex-basis: 50%;
+    }
+    .ourStars .imgSection img{
+        width: 85%;
+    }
+    .ourStars .content{
+        padding-left: 1rem;
+    }
+    .ourStars .content p{
+        margin-top: 3.5rem;
+    }
+    .ourStars .content h2{
+        font-size: 2.5rem;
+        padding-right: 0rem;
+    }
+    /* ourStars */
 }
 @media (max-width: 992px) {
     /* nav */
@@ -494,7 +519,7 @@ nav .navItem .homeBtn{
     }
     .ourBenefit .content p{
     margin-top: 1rem;    margin-bottom: 1rem;
-}
+    }
     .ourBenefit .content h2{
         font-size: 2.4rem;
         padding-right: 0rem;
@@ -506,6 +531,29 @@ nav .navItem .homeBtn{
     margin-bottom: .7rem;
     }
     /* ourBenefit */
+    /* ourStars */
+    .ourStars{
+        margin-top: 6rem;
+        gap: .5rem;
+    }
+    .ourStars .imgSection {
+        width: 25.8125rem;
+        margin-left: 0rem;
+    }
+    .ourStars .imgSection img{
+        width: 90%;
+    }
+    .ourStars .content{
+        padding-left: 1rem;
+    }
+    .ourStars .content p{
+        margin-top: 1rem;    margin-bottom: 1rem;
+    }
+    .ourStars .content h2{
+        font-size: 2.4rem;
+        padding-right: 0rem;
+    }
+    /* ourStars */
 }
 @media (max-width: 768px) {
     /* nav */
@@ -636,6 +684,49 @@ nav .navItem .homeBtn{
         padding-left: 6.3rem;
     }
     /* ourBenefit */
+    /* ourStars */
+    .ourStars{
+        margin-top: 5rem;
+        gap: 0rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ourStars .imgSection {
+        width: 26.8125rem;
+        margin-left: 0rem;
+        flex-basis: 100%;
+    }
+    .ourStars .imgSection img{
+        width: 100%;
+    }
+    .ourStars .content{
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ourStars .content p{
+        font-size: 15px;
+        margin-top: 1rem;
+        margin-bottom: 1.25rem;
+        text-align: center;
+    }
+    .ourStars .content h2{
+        text-align: center;
+        font-size: 2.3rem;
+        padding-right: 6.3rem;
+        padding-left: 6.3rem;
+    }
+    .ourStars .content .history{
+    gap: 4rem;
+    text-align: center;
+    }
+    .ourStars .content button{
+        margin-top: 1.5rem;
+        padding: .9rem 4rem;
+    }
+    /* ourStars */
 
 }
 @media (max-width: 530px) {
@@ -721,4 +812,17 @@ nav .navItem .homeBtn{
         margin-right: 1rem;
     }
     /* ourBenefit */
+    /* ourStars */
+    .ourStars .content h2{
+        font-size: 2.1rem;
+        padding-right: 4.5rem;
+        padding-left: 4.5rem;
+    }
+    .ourStars .imgSection {
+        width: 23.8125rem;
+    }
+    .ourStars .content .history{
+        flex-direction: column;
+    }
+    /* ourStars */
 }
