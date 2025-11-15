@@ -297,6 +297,53 @@ nav .navItem .homeBtn{
     margin: 0 .5rem;
 }
 /* ourStars */
+/* ourFeature */
+.ourFeature{
+    margin-top: 3rem;
+    height: min-content;
+}
+.ourFeature .content{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.ourFeature .content p{
+    font-size: 15px;
+}
+.ourFeature .content h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.ourFeature .imgSection{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,18.28125rem);
+    grid-template-rows: repeat(2,18.28125rem);
+}
+.ourFeature .contentItem{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1.5px solid var(--mainColor);
+}
+.ourFeature .contentItem h3{
+    font-size:2rem;
+    font-weight: 500;
+}
+.ourFeature .contentItem p{
+    padding-right: 2rem;
+    word-spacing: .1rem;
+    margin-top: -30px;
+}
+.ourFeature .contentItem button{
+    margin-top: -30px;
+    width: 10.25rem;
+    background-color: #E6F9F0;
+    border: 0;
+    color: var(--mainColor);
+    padding: .9rem 1.5rem;
+}
+/* ourFeature */
 /* Media Query */
 @media (max-width: 1200px) {
     /* nav */
