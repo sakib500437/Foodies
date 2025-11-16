@@ -559,6 +559,15 @@ nav .navItem .homeBtn{
     .product .content {
         padding-left: 1rem;
     }
+    .product .boxSection{
+        grid-template-columns: repeat(4,15rem);
+        grid-template-rows: repeat(1,26.5rem);
+        padding: 0 .8rem;
+    }
+    .product .boxSection .item{
+        padding: 1.2rem 1.8rem;
+        margin: 0 .1rem;
+    }
     /* Product */
 
 }
@@ -714,6 +723,18 @@ nav .navItem .homeBtn{
         grid-row: 3/4;
     }
     /* ourFeature */
+    /* Product */
+    .product .content{
+        text-align: center;
+    }
+    .product .boxSection{
+        grid-template-columns: repeat(2,16rem);
+        grid-template-rows: repeat(1,27rem);
+        justify-content: center;
+        grid-auto-rows: 27rem;
+        gap: 5rem;
+    }
+    /* Product */
 }
 @media (max-width: 768px) {
     /* nav */
@@ -921,6 +942,10 @@ nav .navItem .homeBtn{
         font-size: 2.3rem;
     }
     /* Product  */
+    .product .boxSection{
+        grid-template-columns: repeat(1,16rem);
+        gap: 3rem;
+    }
 
 }
 @media (max-width: 530px) {
